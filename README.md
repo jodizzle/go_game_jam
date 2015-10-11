@@ -2,7 +2,7 @@
 ![Game screenshot](screen.png)
 A basic little snake game.  Eat as many green squares as you can before dying.  Don't touch your tail or the edges of the screen!
 
-Built with [termloop](https://github.com/JoelOtter/termloop), and made over a weekend as part of the [codelympics Go Game Jam](https://codelympics.io/projects/2).
+Built with [termloop](https://github.com/JoelOtter/termloop), and made over a weekend as part of the [codelympics Go Game Jam](https://codelympics.io/projects/2).  This repository is preserved for posterity; further development will take place in a [new repo](https://github.com/jodizzle/gosnake).
 
 # Play
 
@@ -12,9 +12,9 @@ $ go get -u github.com/jodizzle/snake
 ```
 Run:
 ```bash
-$ $GOPATH/bin/gotapper
+$ $GOPATH/bin/snake
 ```
-(gameplay tested on Linux)
+(gameplay tested on Linux and Windows)
 
 # Game Jam Post-Mortem
 Even though I probably had enough time this weekend, I made the mistake of spending of lot of time reading about Go and walking through tutorials instead of working on the product.  This lead me to dwindle my grand, magnificent vision for an amazingly perfect game (some sort of RPG-Roguelike-Action-Adventure-FPS, I think?) to something a little more tepid.  Since I've never actually programmed snake, I thought I'd give it a shot.  I think the project turned out pretty well and was a good first Go-effort, though I suspect the code doesn't look very much like Go is supposed to look.  I rushed on the organization (it would be worth splitting into multiple files) and skipped some abstraction in the name of time constraints.  The project definitely deserves some cleaning up.
